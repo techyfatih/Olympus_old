@@ -6,28 +6,12 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="Backgrounds">
-      <sprite>sprites\Bronze_Background</sprite>
-      <sprite>sprites\Silver_Background</sprite>
-      <sprite>sprites\Gold_Background</sprite>
+    <sprites name="backgrounds">
+      <sprite>sprites\spr_border</sprite>
+      <sprite>sprites\spr_tier</sprite>
     </sprites>
-    <sprites name="Foregrounds">
-      <sprite>sprites\Common_Foreground</sprite>
-      <sprite>sprites\Formidable_Foreground</sprite>
-      <sprite>sprites\Immortal_Foreground</sprite>
-      <sprite>sprites\Omnipotent_Foreground</sprite>
-      <sprite>sprites\Powerful_Foreground</sprite>
-      <sprite>sprites\Superior_Foreground</sprite>
-      <sprite>sprites\Supreme_Foreground</sprite>
-      <sprite>sprites\Ultimate_Foreground</sprite>
-    </sprites>
-    <sprites name="Card Templates">
-      <sprite>sprites\Common_Gold_Template</sprite>
-      <sprite>sprites\Common_Silver_Template</sprite>
-      <sprite>sprites\Common_Bronze_Template</sprite>
-    </sprites>
-    <sprites name="Monsters">
-      <sprites name="Common Monsters">
+    <sprites name="monsters">
+      <sprites name="common">
         <sprite>sprites\Horse</sprite>
         <sprite>sprites\Lion</sprite>
         <sprite>sprites\Tiger</sprite>
@@ -40,16 +24,26 @@
         <sprite>sprites\Greek_Soldier</sprite>
         <sprite>sprites\Boss___Deltaites__Rival_</sprite>
       </sprites>
-      <sprites name="Powerful Monsters">
-        <sprite>sprites\Hydra</sprite>
+      <sprites name="powerful">
+        <sprite>sprites\spr_hydra</sprite>
       </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_draw_text_outline.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\Diogenes</font>
   </fonts>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_monster</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_battle</room>
+  </rooms>
   <constants number="2">
     <constant name="GM_build_date">0</constant>
     <constant name="GM_version">0</constant>
