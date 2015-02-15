@@ -25,17 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>name = "Bob";
-tier = 1;
-hp = 10;
-atk = 10;
-def = 10;
-spe = 10;
+            <string>name = pName;
+tier = pTier;
+HP = pStats[0];
+ATK = pStats[1];
+DEF = pStats[2];
+SPE = pStats[3];
 
-currHP = 10;
-currATK = 10;
-currDEF = 10;
-currSPE = 10;
+currHP = HP;
+currATK = ATK;
+currDEF = DEF;
+currSPE = SPE;
 </string>
           </argument>
         </arguments>
@@ -63,10 +63,10 @@ draw_sprite(spr_border, 0, x, y);
 draw_set_halign(fa_center);
 scr_draw_text_outline(name, x + 100, y + 30);
 draw_set_halign(fa_left);
-scr_draw_text_outline("HP: " + string(currHP) + "/" + string(hp), x + 30, y + 180);
-scr_draw_text_outline("ATK: " + string(currATK) + "/" + string(atk), x + 30, y + 200);
-scr_draw_text_outline("DEF: " + string(currDEF) + "/" + string(def), x + 30, y + 220);
-scr_draw_text_outline("SPE: " + string(currSPE) + "/" + string(spe), x + 30, y + 240);
+scr_draw_text_outline("HP: " + string(currHP) + "/" + string(HP), x + 30, y + 180);
+scr_draw_text_outline("ATK: " + string(currATK) + "/" + string(ATK), x + 30, y + 200);
+scr_draw_text_outline("DEF: " + string(currDEF) + "/" + string(DEF), x + 30, y + 220);
+scr_draw_text_outline("SPE: " + string(currSPE) + "/" + string(SPE), x + 30, y + 240);
 </string>
           </argument>
         </arguments>

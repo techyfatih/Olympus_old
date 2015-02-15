@@ -28,10 +28,10 @@
             <string>name = "Zeus";
 rarity = 5;
 tier = 8;
-hp = 9999;
-atk = 9999;
-def = 9999;
-spe = 9999;
+HP = 9999;
+ATK = 9999;
+DEF = 9999;
+SPE = 9999;
 
 currHP = 9999;
 currATK = 9999;
@@ -63,11 +63,12 @@ currSPE = 9999;
 draw_sprite(spr_border, rarity - 1, x, y);
 draw_set_halign(fa_center);
 scr_draw_text_outline(name, x + 100, y + 30);
+draw_sprite(Zeus, 0, x + 50, y + 50);
 draw_set_halign(fa_left);
-scr_draw_text_outline("HP: " + string(currHP) + "/" + string(hp), x + 30, y + 180);
-scr_draw_text_outline("ATK: " + string(currATK) + "/" + string(atk), x + 30, y + 200);
-scr_draw_text_outline("DEF: " + string(currDEF) + "/" + string(def), x + 30, y + 220);
-scr_draw_text_outline("SPE: " + string(currSPE) + "/" + string(spe), x + 30, y + 240);
+scr_draw_text_outline("HP: " + string(currHP) + "/" + string(HP), x + 30, y + 180);
+scr_draw_text_outline("ATK: " + string(currATK) + "/" + string(ATK), x + 30, y + 200);
+scr_draw_text_outline("DEF: " + string(currDEF) + "/" + string(DEF), x + 30, y + 220);
+scr_draw_text_outline("SPE: " + string(currSPE) + "/" + string(SPE), x + 30, y + 240);
 </string>
           </argument>
         </arguments>
