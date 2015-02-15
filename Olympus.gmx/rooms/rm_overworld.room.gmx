@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_menu" x="64" y="128" name="inst_60DEDDE8" locked="0" code="items[0] = &quot;Inventory&quot;&#xA;items[1] = &quot;Search&quot;&#xA;items[2] = &quot;Boss&quot;&#xA;items[3] = &quot;Save&quot;&#xA;items[4] = &quot;Quit&quot;&#xA;width = 110;&#xA;disabled = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu" x="64" y="128" name="inst_60DEDDE8" locked="0" code="items[0] = &quot;Search&quot;&#xA;items[1] = &quot;Inventory&quot;&#xA;items[2] = &quot;Boss&quot;&#xA;items[3] = &quot;Save&quot;&#xA;items[4] = &quot;Quit&quot;&#xA;width = 110;&#xA;disabled = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworld" x="0" y="0" name="inst_48021387" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="192" y="128" name="inst_78B1A3CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

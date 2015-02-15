@@ -35,6 +35,7 @@ boost = false;
 pStat = "HP";
 pBoost = 0;
 won = false;
+ran = false;
 </string>
           </argument>
         </arguments>
@@ -87,6 +88,16 @@ switch (option)
     case 3: //Allies
         break;
     case 4: //Run
+        if ran
+        {
+            draw_text(610, 210, "Got away safely!");
+            draw_text(610, 260, "Press 'Enter'.");
+        }
+        else
+        {
+            draw_text(610, 210, "You couldn't get away...");
+            draw_text(610, 230, obj_monster.name + " dealt " + string(mDamage) + " damage!");
+        }
         break;
 }
 if won draw_text(610, 260, "You won! Press 'Enter'.");
@@ -112,116 +123,128 @@ if won draw_text(610, 260, "You won! Press 'Enter'.");
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if won room_goto(rm_overworld);
-var pATK, pDEF, pSPE, mHP, mATK, mDEF, mSPE, mTier;
-pATK = obj_player.ATK;
-pDEF = obj_player.DEF;
-pSPE = obj_player.SPE;
-mHP = obj_monster.currHP;
-mATK = obj_monster.currATK;
-mDEF = obj_monster.currDEF;
-mSPE = obj_monster.currSPE;
-mTier = obj_monster.tier;
-
-if (pSPE &gt; mSPE) faster = true; //true = player, false = monster
-else if (pSPE &lt; mSPE) faster = false
+            <string>if won or ran room_goto(rm_overworld);
 else
 {
-    if (random(1) &gt;= 0.5) faster = true;
-    else faster = false;
-}
-
-option = obj_menu.curr;
-switch (option)
-{
-    case 0: //Attack
-        if (faster)
-        {
-            var miHP = mHP;
-            mHP = scr_attack(pATK, mDEF, mTier, mHP);
-            pDamage = miHP - mHP;
-            if (mHP == 0) break;
-            
-            var piHP = pHP;
-            pHP = scr_attack(mATK, pDEF, pTier, pHP);
-            mDamage = piHP - pHP;
-        }
-        else
-        {
-            var piHP = pHP;
-            pHP = scr_attack(mATK, pDEF, pTier, pHP);
-            mDamage = piHP - pHP;
-            if (pHP == 0) break;
-            
-            var miHP = mHP;
-            mHP = scr_attack(pATK, mDEF, mTier, mHP);
-            pDamage = miHP - mHP;
-        }
-        break;
-    case 1: //Abilities
-        break;
-    case 2: //Items
-        /*boost = false;
-        if !instance_exists(obj_battleItems) instance_create(0, 0, obj_battleItems);
-        else
-        {
-            boost = true;
-            pStat = obj_item.stat;
-            pBoost = obj_item.boost;
-            if (pStat == "HP") pHP += pBoost;
-            else if (pStat == "ATK") pATK += pBoost;
-            else if (pStat == "DEF") pDEF += pBoost;
-            else if (pStat == "SPE") pSPE += pBoost;
-            
-            var piHP = pHP;
-            pHP = scr_attack(mATK, pDEF, pTier, pHP);
-            mDamage = piHP - pHP;
-        }*/
-        break;
-    case 3: //Allies
-        break;
-    case 4: //Run
-        audio_stop_all();
-        if (faster) room_goto(rm_overworld);
-        else
-        {
-            var n = random(1);
-            if (n &lt; 0.5) room_goto(rm_overworld);
-            else pHP = scr_attack(mATK, pDEF, pTier, pHP);
-        }
-        break;
-}
-
-obj_player.ATK = pATK;
-obj_player.DEF = pDEF;
-obj_player.SPE = pSPE;
-obj_monster.currHP = mHP;
-obj_monster.currATK = mATK;
-obj_monster.currDEF = mDEF;
-obj_monster.currSPE = mSPE;
-
-if (pHP == 0)
-{
-    instance_create(0, 0, obj_lose);
-    instance_destroy();
-}
-if (mHP == 0)
-{
-    won = true;
-    turn++;
-    if (pStats[0] &lt; (pTier + 1) * 10)
+    var pATK, pDEF, pSPE, mHP, mATK, mDEF, mSPE, mTier;
+    pATK = obj_player.ATK;
+    pDEF = obj_player.DEF;
+    pSPE = obj_player.SPE;
+    mHP = obj_monster.currHP;
+    mATK = obj_monster.currATK;
+    mDEF = obj_monster.currDEF;
+    mSPE = obj_monster.currSPE;
+    mTier = obj_monster.tier;
+    
+    if (pSPE &gt; mSPE) faster = true; //true = player, false = monster
+    else if (pSPE &lt; mSPE) faster = false
+    else
     {
+        if (random(1) &gt;= 0.5) faster = true;
+        else faster = false;
+    }
+    
+    option = obj_menu.curr;
+    switch (option)
+    {
+        case 0: //Attack
+            if (faster)
+            {
+                var miHP = mHP;
+                mHP = scr_attack(pATK, mDEF, mTier, mHP);
+                pDamage = miHP - mHP;
+                if (mHP == 0) break;
+                
+                var piHP = pHP;
+                pHP = scr_attack(mATK, pDEF, pTier, pHP);
+                mDamage = piHP - pHP;
+            }
+            else
+            {
+                var piHP = pHP;
+                pHP = scr_attack(mATK, pDEF, pTier, pHP);
+                mDamage = piHP - pHP;
+                if (pHP == 0) break;
+                
+                var miHP = mHP;
+                mHP = scr_attack(pATK, mDEF, mTier, mHP);
+                pDamage = miHP - mHP;
+            }
+            break;
+        case 1: //Abilities
+            break;
+        case 2: //Items
+            /*boost = false;
+            if !instance_exists(obj_battleItems) instance_create(0, 0, obj_battleItems);
+            else
+            {
+                boost = true;
+                pStat = obj_item.stat;
+                pBoost = obj_item.boost;
+                if (pStat == "HP") pHP += pBoost;
+                else if (pStat == "ATK") pATK += pBoost;
+                else if (pStat == "DEF") pDEF += pBoost;
+                else if (pStat == "SPE") pSPE += pBoost;
+                
+                var piHP = pHP;
+                pHP = scr_attack(mATK, pDEF, pTier, pHP);
+                mDamage = piHP - pHP;
+            }*/
+            break;
+        case 3: //Allies
+            break;
+        case 4: //Run
+            if (faster)
+            {
+                audio_stop_all();
+                ran = true;
+            }
+            else
+            {
+                var n = random(1);
+                if (n &lt; 0.5)
+                {
+                    audio_stop_all();
+                    ran = true;
+                }
+                else
+                {
+                    var piHP = pHP;
+                    pHP = scr_attack(mATK, pDEF, pTier, pHP);
+                    mDamage = piHP - pHP;
+                }
+            }
+            break;
+    }
+    
+    obj_player.ATK = pATK;
+    obj_player.DEF = pDEF;
+    obj_player.SPE = pSPE;
+    obj_monster.currHP = mHP;
+    obj_monster.currATK = mATK;
+    obj_monster.currDEF = mDEF;
+    obj_monster.currSPE = mSPE;
+    
+    if (pHP == 0)
+    {
+        instance_create(0, 0, obj_lose);
+        instance_destroy();
+    }
+    if (mHP == 0)
+    {
+        won = true;
+        turn++;
         pHP += ceil(pStats[1] * 0.2);
         if (pHP &gt; pStats[1]) pHP = pStats[1];
         pHP++;
-        for (var i = 0; i &lt; 5; i++) pStats[i]++;
+        if (pStats[0] &lt; (pTier + 1) * 10) for (var i = 0; i &lt; 5; i++) pStats[i]++;
+        if (monster == bosses[pTier])
+        {
+            pTier++;
+            turn = 1
+        }
+        audio_stop_all();
     }
-    if (monster == bosses[pTier])
-    {
-        pTier++;
-        turn = 1
-    }
-    audio_stop_all();
 }
 </string>
           </argument>

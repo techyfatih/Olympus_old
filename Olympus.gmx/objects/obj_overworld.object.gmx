@@ -77,13 +77,13 @@ draw_text(50, 50, "Current turn: " + string(turn));
             <kind>1</kind>
             <string>switch (obj_menu.curr)
 {
-    case 0: //Inventory
-        break;
-    case 1: //Search
+    case 0: //Search
         audio_stop_all();
         audio_play_sound(snd_battle, 1, true);
         monster = ds_list_find_value(monsters[pTier], floor(random(ds_list_size(monsters[pTier]))));
         room_goto(rm_battle);
+        break;
+    case 1: //Inventory
         break;
     case 2: //Boss
         if (turn &gt;= 5)
