@@ -47,13 +47,28 @@ else
 
 switch (obj_menu.curr)
 {
-    case 1: //Attack
-        mHP = scr_attack(pATK, mDEF, mTier, mHP);
+    case 0: //Attack
+        if (faster)
+        {
+            mHP = scr_attack(pATK, mDEF, mTier, mHP);
+            if (mHP == 0) break;
+            pHP = scr_attack(mATK, pDEF, pTier, pHP);
+        }
+        else
+        {
+            pHP = scr_attack(mATK, pDEF, pTier, pHP);
+            if (pHP == 0) break;
+            mHP = scr_attack(pATK, mDEF, mTier, mHP);
+        }
         break;
-    case 2: //Abilities
-    case 3: //Items
-    case 4: //Allies
-    case 5: //Run
+    case 1: //Abilities
+        break;
+    case 2: //Items
+        break;
+    case 3: //Allies
+        break;
+    case 4: //Run
+        break;
 }
 
 obj_player.currHP = pHP;
@@ -64,6 +79,8 @@ obj_monster.currHP = mHP;
 obj_monster.currATK = mATK;
 obj_monster.currDEF = mDEF;
 obj_monster.currSPE = mSPE;
+
+if (pHP == 0) instance_create(0, 0, obj_lose);
 </string>
           </argument>
         </arguments>

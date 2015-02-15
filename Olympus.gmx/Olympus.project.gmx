@@ -119,7 +119,8 @@
         <sprite>sprites\Zeus</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\spr_background</sprite>
+    <sprite>sprites\spr_lose</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_title</background>
@@ -128,21 +129,25 @@
   <scripts name="scripts">
     <script>scripts\scr_draw_text_outline.gml</script>
     <script>scripts\scr_attack.gml</script>
+    <script>scripts\script2.gml</script>
   </scripts>
   <fonts name="fonts">
-    <font>fonts\Diogenes</font>
+    <font>fonts\fnt_greek</font>
   </fonts>
   <objects name="objects">
     <objects name="controllers">
       <object>objects\obj_battle</object>
+      <object>objects\obj_lose</object>
       <object>objects\obj_menu</object>
       <object>objects\obj_title</object>
+      <object>objects\obj_overworld</object>
     </objects>
     <object>objects\obj_monster</object>
     <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
+    <room>rooms\rm_overworld</room>
     <room>rooms\rm_battle</room>
   </rooms>
   <constants number="2">

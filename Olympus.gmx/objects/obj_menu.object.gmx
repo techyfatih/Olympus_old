@@ -60,8 +60,6 @@ for (var i = 0; i &lt; array_length_1d(items); i++)
     draw_text(x + 12, y + i*20 + 10, items[i]);
 }
 draw_triangle(x + 5, y + 20*curr + 12, x + 5, y + 20*curr + 22, x + 10, y + 20*curr + 17, true);
-
-draw_text(400, 400, curr);
 </string>
           </argument>
         </arguments>
