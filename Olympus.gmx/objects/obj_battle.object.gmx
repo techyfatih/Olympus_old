@@ -34,6 +34,7 @@ mDamage = 0;
 boost = false;
 pStat = "HP";
 pBoost = 0;
+won = false;
 </string>
           </argument>
         </arguments>
@@ -58,7 +59,7 @@ pBoost = 0;
             <kind>1</kind>
             <string>draw_sprite(spr_battle, 0, 0, 0);
 draw_set_color(c_white);
-draw_roundrect(600, 200, 900, 260, false);
+draw_roundrect(600, 200, 900, 300, false);
 draw_set_color(c_black);
 switch (option)
 {
@@ -88,6 +89,7 @@ switch (option)
     case 4: //Run
         break;
 }
+if won draw_text(610, 260, "You won! Press 'Enter'.");
 </string>
           </argument>
         </arguments>
@@ -110,7 +112,8 @@ switch (option)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var pATK, pDEF, pSPE, mHP, mATK, mDEF, mSPE, mTier;
+            <string>if won room_goto(rm_overworld);
+var pATK, pDEF, pSPE, mHP, mATK, mDEF, mSPE, mTier;
 pATK = obj_player.ATK;
 pDEF = obj_player.DEF;
 pSPE = obj_player.SPE;
@@ -178,6 +181,7 @@ switch (option)
     case 3: //Allies
         break;
     case 4: //Run
+        audio_stop_all();
         if (faster) room_goto(rm_overworld);
         else
         {
@@ -203,6 +207,7 @@ if (pHP == 0)
 }
 if (mHP == 0)
 {
+    won = true;
     turn++;
     if (pStats[0] &lt; (pTier + 1) * 10)
     {
@@ -216,7 +221,7 @@ if (mHP == 0)
         pTier++;
         turn = 1
     }
-    room_goto(rm_overworld);
+    audio_stop_all();
 }
 </string>
           </argument>

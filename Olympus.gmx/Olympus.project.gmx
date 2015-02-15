@@ -1909,7 +1909,13 @@
     </datafiles>
   </datafiles>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_battle</sound>
+    <sound>sound\snd_boss</sound>
+    <sound>sound\snd_tier1</sound>
+    <sound>sound\snd_tier2</sound>
+    <sound>sound\snd_title</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="backgrounds">
       <sprite>sprites\spr_border</sprite>

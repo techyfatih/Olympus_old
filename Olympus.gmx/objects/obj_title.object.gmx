@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>randomize();
+            <string>audio_play_sound(snd_title,1,true);
+randomize();
 
 globalvar map, monsters, bosses, pName, pTier, pStats, pHP, pHand, turn, monster
 
@@ -117,6 +118,7 @@ draw_text(480, 240, "Press 'Enter' to select.");
         turn = 1;
         monster = "Horse";
         
+        audio_stop_sound(snd_title);
         room_goto(rm_overworld);
         break;
     case 1: //Load Game

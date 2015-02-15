@@ -99,7 +99,11 @@ if (gameover) draw_text_transformed(480, 350, "You lost...", 5, 5, 0);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (gameover) game_restart();
+            <string>if (gameover)
+{
+    sound_stop_all();
+    game_restart();
+}
 </string>
           </argument>
         </arguments>

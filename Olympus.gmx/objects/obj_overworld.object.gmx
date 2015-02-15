@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>for (var i = 0; i &lt; 8; i++) if (i == pTier) background_visible[i] = true;
-
+if (pTier == 0) audio_play_sound(snd_tier1, 1, true);
+else audio_play_sound(snd_tier2, 1, true);
 if (turn &gt;= 5) obj_menu.disabled = -1;
 </string>
           </argument>
@@ -79,12 +80,16 @@ draw_text(50, 50, "Current turn: " + string(turn));
     case 0: //Inventory
         break;
     case 1: //Search
+        audio_stop_all();
+        audio_play_sound(snd_battle, 1, true);
         monster = ds_list_find_value(monsters[pTier], floor(random(ds_list_size(monsters[pTier]))));
         room_goto(rm_battle);
         break;
     case 2: //Boss
         if (turn &gt;= 5)
         {
+            audio_stop_all();
+            audio_play_sound(snd_boss, 1, true);
             monster = bosses[pTier];
             room_goto(rm_battle);
         }
