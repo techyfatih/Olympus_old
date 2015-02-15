@@ -64,9 +64,9 @@ draw_set_halign(fa_center);
 scr_draw_text_outline(name, x + 100, y + 30);
 draw_set_halign(fa_left);
 scr_draw_text_outline("HP: " + string(currHP) + "/" + string(HP), x + 30, y + 180);
-scr_draw_text_outline("ATK: " + string(currATK) + "/" + string(ATK), x + 30, y + 200);
-scr_draw_text_outline("DEF: " + string(currDEF) + "/" + string(DEF), x + 30, y + 220);
-scr_draw_text_outline("SPE: " + string(currSPE) + "/" + string(SPE), x + 30, y + 240);
+scr_draw_text_outline("ATK: " + string(ATK) + " (" + string(currATK) + ")", x + 30, y + 200);
+scr_draw_text_outline("DEF: " + string(DEF) + " (" + string(currDEF) + ")", x + 30, y + 220);
+scr_draw_text_outline("SPE: " + string(SPE) + " (" + string(currSPE) + ")", x + 30, y + 240);
 </string>
           </argument>
         </arguments>
