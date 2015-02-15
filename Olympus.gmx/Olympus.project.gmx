@@ -86,6 +86,25 @@
         <sprite>sprites\Themis</sprite>
         <sprite>sprites\Tyche</sprite>
       </sprites>
+      <sprites name="Superior Monsters">
+        <sprite>sprites\Aphrodite</sprite>
+        <sprite>sprites\Apollo</sprite>
+        <sprite>sprites\Ares</sprite>
+        <sprite>sprites\Artemis</sprite>
+        <sprite>sprites\Athena</sprite>
+        <sprite>sprites\Demeter</sprite>
+        <sprite>sprites\Dionysus</sprite>
+        <sprite>sprites\Hecate</sprite>
+        <sprite>sprites\Hephaestus</sprite>
+        <sprite>sprites\Hera</sprite>
+        <sprite>sprites\Hermes</sprite>
+        <sprite>sprites\Hestia</sprite>
+        <sprite>sprites\Leto</sprite>
+        <sprite>sprites\Mnemosyne</sprite>
+        <sprite>sprites\Prometheus</sprite>
+        <sprite>sprites\Rhea</sprite>
+        <sprite>sprites\Tethys</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_title</sprite>
   </sprites>
