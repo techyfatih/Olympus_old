@@ -30,6 +30,7 @@ items[1] = "Load Game"
 items[2] = "Quit"
 width = 110;
 curr = 0;
+disabled = -1;
 </string>
           </argument>
         </arguments>
@@ -52,14 +53,16 @@ curr = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_black);
-draw_set_halign(fa_left);
-draw_roundrect(x, y, x + width, y + array_length_1d(items) * 20 + 15, true);
+            <string>draw_set_halign(fa_left);
+draw_set_color(c_white);
+draw_roundrect(x, y, x + width, y + array_length_1d(items) * 20 + 15, false);
 for (var i = 0; i &lt; array_length_1d(items); i++)
 {
+    if (i == disabled) draw_set_color(c_gray);
+    else draw_set_color(c_black);
     draw_text(x + 12, y + i*20 + 10, items[i]);
 }
-draw_triangle(x + 5, y + 20*curr + 12, x + 5, y + 20*curr + 22, x + 10, y + 20*curr + 17, true);
+draw_triangle(x + 5, y + 20*curr + 12, x + 5, y + 20*curr + 22, x + 10, y + 20*curr + 17, false);
 </string>
           </argument>
         </arguments>
@@ -82,7 +85,7 @@ draw_triangle(x + 5, y + 20*curr + 12, x + 5, y + 20*curr + 22, x + 10, y + 20*c
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (curr &lt; array_length_1d(items)-1) curr++;
+            <string>if !instance_exists(obj_lose) and (curr &lt; array_length_1d(items)-1) curr++;
 </string>
           </argument>
         </arguments>
@@ -105,7 +108,7 @@ draw_triangle(x + 5, y + 20*curr + 12, x + 5, y + 20*curr + 22, x + 10, y + 20*c
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (curr &gt; 0) curr--;
+            <string>if !instance_exists(obj_lose) and (curr &gt; 0) curr--;
 </string>
           </argument>
         </arguments>

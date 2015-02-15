@@ -3,12 +3,12 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="51" name="datafiles">
-    <datafiles number="51" name="common">
+  <datafiles number="56" name="datafiles">
+    <datafiles number="56" name="common">
       <datafile>
-        <name>Deltaites.txt</name>
+        <name>Boss_Deltaites.txt</name>
         <exists>-1</exists>
-        <size>31</size>
+        <size>20</size>
         <exportAction>2</exportAction>
         <exportDir></exportDir>
         <overwrite>0</overwrite>
@@ -20,7 +20,7 @@
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
         </ConfigOptions>
-        <filename>Deltaites.txt</filename>
+        <filename>Boss_Deltaites.txt</filename>
       </datafile>
       <datafile>
         <name>Dolphin.txt</name>
@@ -57,9 +57,9 @@
         <filename>Eagle.txt</filename>
       </datafile>
       <datafile>
-        <name>Greek Soldier.txt</name>
+        <name>Greek_Soldier.txt</name>
         <exists>-1</exists>
-        <size>32</size>
+        <size>17</size>
         <exportAction>2</exportAction>
         <exportDir></exportDir>
         <overwrite>0</overwrite>
@@ -71,12 +71,12 @@
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
         </ConfigOptions>
-        <filename>Greek Soldier.txt</filename>
+        <filename>Greek_Soldier.txt</filename>
       </datafile>
       <datafile>
-        <name>Grizzly Bear.txt</name>
+        <name>Grizzly_Bear.txt</name>
         <exists>-1</exists>
-        <size>33</size>
+        <size>19</size>
         <exportAction>2</exportAction>
         <exportDir></exportDir>
         <overwrite>0</overwrite>
@@ -88,7 +88,7 @@
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
         </ConfigOptions>
-        <filename>Grizzly Bear.txt</filename>
+        <filename>Grizzly_Bear.txt</filename>
       </datafile>
       <datafile>
         <name>Horse.txt</name>
@@ -125,9 +125,9 @@
         <filename>Lion.txt</filename>
       </datafile>
       <datafile>
-        <name>Mountain Goat.txt</name>
+        <name>Mountain_Goat.txt</name>
         <exists>-1</exists>
-        <size>31</size>
+        <size>16</size>
         <exportAction>2</exportAction>
         <exportDir></exportDir>
         <overwrite>0</overwrite>
@@ -139,7 +139,7 @@
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
         </ConfigOptions>
-        <filename>Mountain Goat.txt</filename>
+        <filename>Mountain_Goat.txt</filename>
       </datafile>
       <datafile>
         <name>Shark.txt</name>
@@ -176,9 +176,9 @@
         <filename>Tiger.txt</filename>
       </datafile>
       <datafile>
-        <name>Wild Boar.txt</name>
+        <name>Wild_Boar.txt</name>
         <exists>-1</exists>
-        <size>30</size>
+        <size>19</size>
         <exportAction>2</exportAction>
         <exportDir></exportDir>
         <overwrite>0</overwrite>
@@ -190,7 +190,7 @@
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
         </ConfigOptions>
-        <filename>Wild Boar.txt</filename>
+        <filename>Wild_Boar.txt</filename>
       </datafile>
     </datafiles>
   </datafiles>
@@ -203,17 +203,17 @@
     </sprites>
     <sprites name="monsters">
       <sprites name="Common Monsters">
+        <sprite>sprites\Boss_Deltaites</sprite>
+        <sprite>sprites\Dolphin</sprite>
+        <sprite>sprites\Eagle</sprite>
+        <sprite>sprites\Greek_Soldier</sprite>
+        <sprite>sprites\Grizzly_Bear</sprite>
         <sprite>sprites\Horse</sprite>
         <sprite>sprites\Lion</sprite>
-        <sprite>sprites\Tiger</sprite>
-        <sprite>sprites\Grizzly_Bear</sprite>
-        <sprite>sprites\Wild_Boar</sprite>
-        <sprite>sprites\Eagle</sprite>
         <sprite>sprites\Mountain_Goat</sprite>
-        <sprite>sprites\Dolphin</sprite>
         <sprite>sprites\Shark</sprite>
-        <sprite>sprites\Greek_Soldier</sprite>
-        <sprite>sprites\Deltaites</sprite>
+        <sprite>sprites\Tiger</sprite>
+        <sprite>sprites\Wild_Boar</sprite>
       </sprites>
       <sprites name="Powerful Monsters">
         <sprite>sprites\Hydra</sprite>
@@ -311,10 +311,12 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_background</sprite>
+    <sprite>sprites\spr_battle</sprite>
     <sprite>sprites\spr_lose</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_title</background>
+    <background>background\bck_common</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

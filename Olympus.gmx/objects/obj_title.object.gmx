@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>randomize();
 
-globalvar map, monsters
+globalvar map, monsters, bosses, pName, pTier, pStats, pHP, pHand, turn, monster
 
 var no, i;
 map = ds_map_create();
@@ -52,11 +52,14 @@ for (i = 0; i &lt; 8; i++)
     else if (i == 6) tier = "ultimate";
     else if (i == 7) tier = "omnipotent";
     
-    file = file_find_first(working_directory + "\*.txt", 0);
+    file = file_find_first(working_directory + "\" + tier + "\*.txt", 0);
     while (file != "")
     {
         filename = filename_name(file);
-        ds_list_add(monsters[i], string_copy(filename,0,string_length(filename)-4));
+        filename = string_copy(filename, 0, string_length(filename) - 4);
+        if (string_copy(filename, 0, 5) == "Boss_") bosses[i] = filename;
+        else ds_list_add(monsters[i], filename);
+        file = file_find_next();
     }
 }
 </string>
@@ -84,6 +87,7 @@ for (i = 0; i &lt; 8; i++)
             <string>draw_sprite(spr_background, 0, x, y);
 draw_set_halign(fa_center)
 draw_text(480, 200, "Olympus");
+draw_text(480, 240, "Press 'Enter' to select.");
 </string>
           </argument>
         </arguments>
@@ -109,13 +113,13 @@ draw_text(480, 200, "Olympus");
             <string>switch (obj_menu.curr)
 {
     case 0: //New Game
-        globalvar pName, pStats, pHand, pTier, turn, monster;
-        
         pName = get_string("Name:", "");
-        pStats[0] = 15 + floor(random(6)); //HP
-        pStats[1] = 5 + floor(random(6)); //Attack
-        pStats[2] = 5 + floor(random(6)); //Defense
-        pStats[3] = 5 + floor(random(6)); //Speed
+        pStats[0] = 1; //Level
+        pStats[1] = 15 + floor(random(6)); //HP
+        pStats[2] = 5 + floor(random(6)); //Attack
+        pStats[3] = 5 + floor(random(6)); //Defense
+        pStats[4] = 5 + floor(random(6)); //Speed
+        pHP = pStats[1];
         pHand = ds_list_create();
         repeat(5)
         {
@@ -123,7 +127,7 @@ draw_text(480, 200, "Olympus");
             ds_list_add(item, floor(random(4)), floor(random(10)));
             ds_list_add(pHand, item);
         }
-        pTier = 1;
+        pTier = 0;
         turn = 1;
         monster = "Horse";
         

@@ -26,9 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>var file;
-name = "Horse"
+name = monster;
 file = file_text_open_read(working_directory + "\common\" + name + ".txt");
-file_text_readln(file);
 rarity = file_text_read_real(file);
 file_text_readln(file);
 tier = file_text_read_real(file);
@@ -41,6 +40,8 @@ DEF = file_text_read_real(file);
 file_text_readln(file);
 SPE = file_text_read_real(file);
 file_text_close(file);
+if (string_copy(name,0,5) == "Boss_") name = string_copy(name,5,string_length(name)-5);
+name = string_replace(name, "_", " ");
 
 currHP = HP;
 currATK = ATK;
@@ -72,12 +73,12 @@ currSPE = SPE;
 draw_sprite(spr_border, rarity - 1, x, y);
 draw_set_halign(fa_center);
 scr_draw_text_outline(name, x + 100, y + 30);
-draw_sprite(ds_map_find_value(map, name), 0, x + 50, y + 50);
+draw_sprite(ds_map_find_value(map, monster), 0, x + 50, y + 50);
 draw_set_halign(fa_left);
 scr_draw_text_outline("HP: " + string(currHP) + "/" + string(HP), x + 30, y + 180);
-scr_draw_text_outline("ATK: " + string(currATK) + "/" + string(ATK), x + 30, y + 200);
-scr_draw_text_outline("DEF: " + string(currDEF) + "/" + string(DEF), x + 30, y + 220);
-scr_draw_text_outline("SPE: " + string(currSPE) + "/" + string(SPE), x + 30, y + 240);
+scr_draw_text_outline("ATK: " + string(ATK) + " (" + string(currATK) + ")", x + 30, y + 200);
+scr_draw_text_outline("DEF: " + string(DEF) + " (" + string(currDEF) + ")", x + 30, y + 220);
+scr_draw_text_outline("SPE: " + string(SPE) + " (" + string(currSPE) + ")", x + 30, y + 240);
 </string>
           </argument>
         </arguments>
