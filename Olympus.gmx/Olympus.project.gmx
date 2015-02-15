@@ -47,6 +47,10 @@
         <sprite>sprites\Sphinx</sprite>
         <sprite>sprites\Triptolemus</sprite>
         <sprite>sprites\Triton</sprite>
+        <sprite>sprites\Agamemnon</sprite>
+        <sprite>sprites\Empousa</sprite>
+        <sprite>sprites\Scylla</sprite>
+        <sprite>sprites\Theseus</sprite>
       </sprites>
       <sprites name="Formidable Monsters">
         <sprite>sprites\Centaur</sprite>
@@ -88,8 +92,8 @@
     <room>rooms\rm_battle</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">0</constant>
-    <constant name="GM_version">0</constant>
+    <constant name="GM_build_date">42050.1793001157</constant>
+    <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
