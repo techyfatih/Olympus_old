@@ -26,6 +26,24 @@
       <sprite>sprites\Common_Silver_Template</sprite>
       <sprite>sprites\Common_Bronze_Template</sprite>
     </sprites>
+    <sprites name="Monsters">
+      <sprites name="Common Monsters">
+        <sprite>sprites\Horse</sprite>
+        <sprite>sprites\Lion</sprite>
+        <sprite>sprites\Tiger</sprite>
+        <sprite>sprites\Grizzly_Bear</sprite>
+        <sprite>sprites\Wild_Boar</sprite>
+        <sprite>sprites\Eagle</sprite>
+        <sprite>sprites\Mountain_Goat</sprite>
+        <sprite>sprites\Dolphin</sprite>
+        <sprite>sprites\Shark</sprite>
+        <sprite>sprites\Greek_Soldier</sprite>
+        <sprite>sprites\Boss___Deltaites__Rival_</sprite>
+      </sprites>
+      <sprites name="Powerful Monsters">
+        <sprite>sprites\Hydra</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
