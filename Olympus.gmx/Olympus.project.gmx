@@ -1034,7 +1034,7 @@
         <filename>Jason.txt</filename>
       </datafile>
       <datafile>
-        <name>Lion.txt</name>
+        <name>Nemean_Lion.txt</name>
         <exists>-1</exists>
         <size>20</size>
         <exportAction>2</exportAction>
@@ -1048,7 +1048,7 @@
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
         </ConfigOptions>
-        <filename>Lion.txt</filename>
+        <filename>Nemean_Lion.txt</filename>
       </datafile>
       <datafile>
         <name>Manticore.txt</name>
@@ -1083,23 +1083,6 @@
           </Config>
         </ConfigOptions>
         <filename>Minotaur.txt</filename>
-      </datafile>
-      <datafile>
-        <name>Nemean.txt</name>
-        <exists>-1</exists>
-        <size>21</size>
-        <exportAction>2</exportAction>
-        <exportDir></exportDir>
-        <overwrite>0</overwrite>
-        <freeData>-1</freeData>
-        <removeEnd>0</removeEnd>
-        <store>0</store>
-        <ConfigOptions>
-          <Config name="Default">
-            <CopyToMask>9223372036854775807</CopyToMask>
-          </Config>
-        </ConfigOptions>
-        <filename>Nemean.txt</filename>
       </datafile>
       <datafile>
         <name>Odysseus.txt</name>
@@ -2092,7 +2075,7 @@
     <room>rooms\rm_battle</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">42050.2369043518</constant>
+    <constant name="GM_build_date">42050.6665419907</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
