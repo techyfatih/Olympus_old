@@ -22,7 +22,7 @@
         <sprite>sprites\Dolphin</sprite>
         <sprite>sprites\Shark</sprite>
         <sprite>sprites\Greek_Soldier</sprite>
-        <sprite>sprites\Boss___Deltaites__Rival_</sprite>
+        <sprite>sprites\Deltaites</sprite>
       </sprites>
       <sprites name="Powerful Monsters">
         <sprite>sprites\Hydra</sprite>
