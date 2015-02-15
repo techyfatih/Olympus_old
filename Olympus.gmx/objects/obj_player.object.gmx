@@ -58,8 +58,8 @@ currSPE = 10;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(spr_border, 4, x, y);
-draw_sprite(spr_tier, tier - 1, x + 20, y + 20);
+            <string>draw_sprite(spr_tier, tier - 1, x, y + 20);
+draw_sprite(spr_border, 0, x, y);
 draw_set_halign(fa_center);
 scr_draw_text_outline(name, x + 100, y + 30);
 draw_set_halign(fa_left);

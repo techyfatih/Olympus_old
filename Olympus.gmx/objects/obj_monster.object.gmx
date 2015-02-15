@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>name = "Zeus";
-rarity = 4;
+rarity = 5;
 tier = 8;
 hp = 9999;
 atk = 9999;
@@ -59,8 +59,8 @@ currSPE = 9999;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(spr_border, rarity - 1, x, y);
-draw_sprite(spr_tier, tier - 1, x + 20, y + 20);
+            <string>draw_sprite(spr_tier, tier - 1, x, y + 20);
+draw_sprite(spr_border, rarity - 1, x, y);
 draw_set_halign(fa_center);
 scr_draw_text_outline(name, x + 100, y + 30);
 draw_set_halign(fa_left);
