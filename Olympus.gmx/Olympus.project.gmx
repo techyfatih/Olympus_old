@@ -11,7 +11,7 @@
       <sprite>sprites\spr_tier</sprite>
     </sprites>
     <sprites name="monsters">
-      <sprites name="common">
+      <sprites name="Common Monsters">
         <sprite>sprites\Horse</sprite>
         <sprite>sprites\Lion</sprite>
         <sprite>sprites\Tiger</sprite>
@@ -24,9 +24,42 @@
         <sprite>sprites\Greek_Soldier</sprite>
         <sprite>sprites\Boss___Deltaites__Rival_</sprite>
       </sprites>
-      <sprites name="powerful">
-        <sprite>sprites\spr_hydra</sprite>
-        <sprite>sprites\sprite15</sprite>
+      <sprites name="Powerful Monsters">
+        <sprite>sprites\Hydra</sprite>
+        <sprite>sprites\Cerberus</sprite>
+        <sprite>sprites\Charybdis</sprite>
+        <sprite>sprites\Chimera</sprite>
+        <sprite>sprites\Cyclops</sprite>
+        <sprite>sprites\Dragon</sprite>
+        <sprite>sprites\Gorgon</sprite>
+        <sprite>sprites\Griffin</sprite>
+        <sprite>sprites\Jason</sprite>
+        <sprite>sprites\Manticore</sprite>
+        <sprite>sprites\Minotaur</sprite>
+        <sprite>sprites\Nemean_Lion</sprite>
+        <sprite>sprites\Odysseus</sprite>
+        <sprite>sprites\Orpheus</sprite>
+        <sprite>sprites\Orthrus</sprite>
+        <sprite>sprites\Pegasus</sprite>
+        <sprite>sprites\Percy_Jackson</sprite>
+        <sprite>sprites\Python</sprite>
+        <sprite>sprites\Siren</sprite>
+        <sprite>sprites\Sphinx</sprite>
+        <sprite>sprites\Triptolemus</sprite>
+        <sprite>sprites\Triton</sprite>
+      </sprites>
+      <sprites name="Formidable Monsters">
+        <sprite>sprites\Centaur</sprite>
+        <sprite>sprites\Chrysaor</sprite>
+        <sprite>sprites\Daedalus</sprite>
+        <sprite>sprites\Dryad</sprite>
+        <sprite>sprites\Geryon</sprite>
+        <sprite>sprites\Harpy</sprite>
+        <sprite>sprites\Ichthyocentaur</sprite>
+        <sprite>sprites\King_Midas</sprite>
+        <sprite>sprites\King_Minos___Boss</sprite>
+        <sprite>sprites\Satyr</sprite>
+        <sprite>sprites\Stymphalian_Bird</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_title</sprite>
