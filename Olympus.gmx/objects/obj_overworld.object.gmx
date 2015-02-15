@@ -52,6 +52,7 @@
     case 0: //Inventory
         break;
     case 1: //Search
+        
         room_goto(rm_battle);
         break;
     case 2: //Boss

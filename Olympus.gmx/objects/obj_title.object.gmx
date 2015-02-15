@@ -26,6 +26,39 @@
           <argument>
             <kind>1</kind>
             <string>randomize();
+
+globalvar map, monsters
+
+var no, i;
+map = ds_map_create();
+no = sprite_duplicate(spr_background);
+sprite_delete(no);
+for (i = 0; i &lt; no; i ++)
+{
+    if (sprite_exists(i)) ds_map_add(map, sprite_get_name(i),i);
+}
+
+for (i = 0; i &lt; 8; i++)
+{
+    var tier, file;
+    monsters[i] = ds_list_create();
+    
+    if (i == 0) tier = "common";
+    else if (i == 1) tier = "formidable";
+    else if (i == 2) tier = "powerful";
+    else if (i == 3) tier = "immortal";
+    else if (i == 4) tier = "superior";
+    else if (i == 5) tier = "supreme";
+    else if (i == 6) tier = "ultimate";
+    else if (i == 7) tier = "omnipotent";
+    
+    file = file_find_first(working_directory + "\*.txt", 0);
+    while (file != "")
+    {
+        filename = filename_name(file);
+        ds_list_add(monsters[i], string_copy(filename,0,string_length(filename)-4));
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -76,7 +109,7 @@ draw_text(480, 200, "Olympus");
             <string>switch (obj_menu.curr)
 {
     case 0: //New Game
-        globalvar pName, pStats, pHand, pTier, turn;
+        globalvar pName, pStats, pHand, pTier, turn, monster;
         
         pName = get_string("Name:", "");
         pStats[0] = 15 + floor(random(6)); //HP
@@ -92,6 +125,7 @@ draw_text(480, 200, "Olympus");
         }
         pTier = 1;
         turn = 1;
+        monster = "Horse";
         
         room_goto(rm_overworld);
         break;

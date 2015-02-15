@@ -3,6 +3,197 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="51" name="datafiles">
+    <datafiles number="51" name="common">
+      <datafile>
+        <name>Deltaites.txt</name>
+        <exists>-1</exists>
+        <size>31</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Deltaites.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Dolphin.txt</name>
+        <exists>-1</exists>
+        <size>26</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Dolphin.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Eagle.txt</name>
+        <exists>-1</exists>
+        <size>24</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Eagle.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Greek Soldier.txt</name>
+        <exists>-1</exists>
+        <size>32</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Greek Soldier.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Grizzly Bear.txt</name>
+        <exists>-1</exists>
+        <size>33</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Grizzly Bear.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Horse.txt</name>
+        <exists>-1</exists>
+        <size>25</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Horse.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Lion.txt</name>
+        <exists>-1</exists>
+        <size>23</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Lion.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Mountain Goat.txt</name>
+        <exists>-1</exists>
+        <size>31</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Mountain Goat.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Shark.txt</name>
+        <exists>-1</exists>
+        <size>25</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Shark.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Tiger.txt</name>
+        <exists>-1</exists>
+        <size>24</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Tiger.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Wild Boar.txt</name>
+        <exists>-1</exists>
+        <size>30</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Wild Boar.txt</filename>
+      </datafile>
+    </datafiles>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -139,8 +330,8 @@
       <object>objects\obj_battle</object>
       <object>objects\obj_lose</object>
       <object>objects\obj_menu</object>
-      <object>objects\obj_title</object>
       <object>objects\obj_overworld</object>
+      <object>objects\obj_title</object>
     </objects>
     <object>objects\obj_monster</object>
     <object>objects\obj_player</object>

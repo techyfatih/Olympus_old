@@ -25,18 +25,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>name = "Zeus";
-rarity = 5;
-tier = 8;
-HP = 9999;
-ATK = 9999;
-DEF = 9999;
-SPE = 9999;
+            <string>var file;
+name = "Horse"
+file = file_text_open_read(working_directory + "\common\" + name + ".txt");
+file_text_readln(file);
+rarity = file_text_read_real(file);
+file_text_readln(file);
+tier = file_text_read_real(file);
+file_text_readln(file);
+HP = file_text_read_real(file);
+file_text_readln(file);
+ATK = file_text_read_real(file);
+file_text_readln(file);
+DEF = file_text_read_real(file);
+file_text_readln(file);
+SPE = file_text_read_real(file);
+file_text_close(file);
 
-currHP = 9999;
-currATK = 9999;
-currDEF = 9999;
-currSPE = 9999;
+currHP = HP;
+currATK = ATK;
+currDEF = DEF;
+currSPE = SPE;
 </string>
           </argument>
         </arguments>
@@ -63,7 +72,7 @@ currSPE = 9999;
 draw_sprite(spr_border, rarity - 1, x, y);
 draw_set_halign(fa_center);
 scr_draw_text_outline(name, x + 100, y + 30);
-draw_sprite(sprite, 0, x + 50, y + 50);
+draw_sprite(ds_map_find_value(map, name), 0, x + 50, y + 50);
 draw_set_halign(fa_left);
 scr_draw_text_outline("HP: " + string(currHP) + "/" + string(HP), x + 30, y + 180);
 scr_draw_text_outline("ATK: " + string(currATK) + "/" + string(ATK), x + 30, y + 200);
