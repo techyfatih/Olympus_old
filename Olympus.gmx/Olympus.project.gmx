@@ -40,6 +40,19 @@
         <sprite>sprites\Greek_Soldier</sprite>
         <sprite>sprites\Boss___Deltaites__Rival_</sprite>
       </sprites>
+      <sprites name="Formidable Monsters">
+        <sprite>sprites\Centaur</sprite>
+        <sprite>sprites\Chrysaor</sprite>
+        <sprite>sprites\Daedalus</sprite>
+        <sprite>sprites\Dryad</sprite>
+        <sprite>sprites\Geryon</sprite>
+        <sprite>sprites\Harpy</sprite>
+        <sprite>sprites\Ichthyocentaur</sprite>
+        <sprite>sprites\King_Midas</sprite>
+        <sprite>sprites\Boss___King_Minos</sprite>
+        <sprite>sprites\Satyr</sprite>
+        <sprite>sprites\Stymphalian_Bird</sprite>
+      </sprites>
       <sprites name="Powerful Monsters">
         <sprite>sprites\Hydra</sprite>
       </sprites>
