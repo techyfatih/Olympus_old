@@ -105,6 +105,19 @@
         <sprite>sprites\Rhea</sprite>
         <sprite>sprites\Tethys</sprite>
       </sprites>
+      <sprites name="Supreme Monsters">
+        <sprite>sprites\Alcyoneus</sprite>
+        <sprite>sprites\Clytius</sprite>
+        <sprite>sprites\Echidna</sprite>
+        <sprite>sprites\Enceladus</sprite>
+        <sprite>sprites\Eurytus</sprite>
+        <sprite>sprites\Hades</sprite>
+        <sprite>sprites\Polybotes</sprite>
+        <sprite>sprites\Porphyrion</sprite>
+        <sprite>sprites\Poseidon</sprite>
+        <sprite>sprites\Typhon</sprite>
+        <sprite>sprites\Zeus</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_title</sprite>
   </sprites>
