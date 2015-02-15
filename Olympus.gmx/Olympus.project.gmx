@@ -93,7 +93,7 @@
     <room>rooms\rm_battle</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">42050.1793001157</constant>
+    <constant name="GM_build_date">42050.2369043518</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
