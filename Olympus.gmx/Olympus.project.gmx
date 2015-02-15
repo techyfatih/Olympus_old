@@ -3,8 +3,8 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="56" name="datafiles">
-    <datafiles number="56" name="common">
+  <datafiles number="157" name="datafiles">
+    <datafiles number="157" name="common">
       <datafile>
         <name>Boss_Deltaites.txt</name>
         <exists>-1</exists>
@@ -193,6 +193,1737 @@
         <filename>Wild_Boar.txt</filename>
       </datafile>
     </datafiles>
+    <datafiles number="157" name="formidable">
+      <datafile>
+        <name>Boss_King_Minos.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Boss_King_Minos.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Centaur.txt</name>
+        <exists>-1</exists>
+        <size>19</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Centaur.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Chrysaor.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Chrysaor.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Daedalus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Daedalus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Dryad.txt</name>
+        <exists>-1</exists>
+        <size>19</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Dryad.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Geryon.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Geryon.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Harpy.txt</name>
+        <exists>-1</exists>
+        <size>19</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Harpy.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Ichthyocentaur.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Ichthyocentaur.txt</filename>
+      </datafile>
+      <datafile>
+        <name>King_Midas.txt</name>
+        <exists>-1</exists>
+        <size>18</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>King_Midas.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Satyr.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Satyr.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Stymphalian_Bird.txt</name>
+        <exists>-1</exists>
+        <size>19</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Stymphalian_Bird.txt</filename>
+      </datafile>
+    </datafiles>
+    <datafiles number="157" name="immortal">
+      <datafile>
+        <name>Asclepius.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Asclepius.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Boss_Kampe.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Boss_Kampe.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Briares.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Briares.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Eris.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Eris.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Eros.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Eros.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Fates.txt</name>
+        <exists>-1</exists>
+        <size>19</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Fates.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Fury.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Fury.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hebe.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hebe.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Iris.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Iris.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Keto.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Keto.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Muses.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Muses.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Nemesis.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Nemesis.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Nike.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Nike.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Pan.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Pan.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Persephone.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Persephone.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Polyphemus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Polyphemus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Thanatos.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Thanatos.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Themis.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Themis.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Tyche.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Tyche.txt</filename>
+      </datafile>
+    </datafiles>
+    <datafiles number="157" name="omnipotent">
+      <datafile>
+        <name>Boss_Chaos.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Boss_Chaos.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Gaia.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Gaia.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Ouranos.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Ouranos.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Tartarus.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Tartarus.txt</filename>
+      </datafile>
+    </datafiles>
+    <datafiles number="157" name="powerful">
+      <datafile>
+        <name>Achilles.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Achilles.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Agamemnon.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Agamemnon.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Bellerophon.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Bellerophon.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Boss_Hercules.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Boss_Hercules.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Cerberus.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Cerberus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Charybdis.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Charybdis.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Chimera.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Chimera.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Cyclops.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Cyclops.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Dragon.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Dragon.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Empousa.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Empousa.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Gorgon.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Gorgon.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Griffin.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Griffin.txt</filename>
+      </datafile>
+      <datafile>
+        <name>HellHound.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>HellHound.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hydra.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hydra.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Jason.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Jason.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Lion.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Lion.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Manticore.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Manticore.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Minotaur.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Minotaur.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Nemean.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Nemean.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Odysseus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Odysseus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Orpheus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Orpheus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Orthrus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Orthrus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Pegasus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Pegasus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Percy_Jackson.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Percy_Jackson.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Perseus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Perseus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Python.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Python.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Scylla.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Scylla.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Siren.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Siren.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Sphinx.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Sphinx.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Theseus.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Theseus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Triptolemus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Triptolemus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Triton.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Triton.txt</filename>
+      </datafile>
+    </datafiles>
+    <datafiles number="157" name="superior">
+      <datafile>
+        <name>Aphrodite.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Aphrodite.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Apollo.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Apollo.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Ares.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Ares.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Artemis.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Artemis.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Athena.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Athena.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Boss_Prometheus.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Boss_Prometheus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Demeter.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Demeter.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Dionysus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Dionysus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hecate.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hecate.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hephaestus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hephaestus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hera.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hera.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hermes.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hermes.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hestia.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hestia.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Leto.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Leto.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Mnemosyne.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Mnemosyne.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Rhea.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Rhea.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Tethys.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Tethys.txt</filename>
+      </datafile>
+    </datafiles>
+    <datafiles number="157" name="supreme">
+      <datafile>
+        <name>Alcyoneus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Alcyoneus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Boss_Zeus.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Boss_Zeus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Clytius.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Clytius.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Echidna.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Echidna.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Enceladus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Enceladus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Eurytus.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Eurytus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hades.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hades.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Polybotes.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Polybotes.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Porphyrion.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Porphyrion.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Poseidon.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Poseidon.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Typhon.txt</name>
+        <exists>-1</exists>
+        <size>20</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Typhon.txt</filename>
+      </datafile>
+    </datafiles>
+    <datafiles number="157" name="ultimate">
+      <datafile>
+        <name>Atlas.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Atlas.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Boss_Kronos.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Boss_Kronos.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Hyperion.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Hyperion.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Iapetus.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Iapetus.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Koios.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Koios.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Krios.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Krios.txt</filename>
+      </datafile>
+      <datafile>
+        <name>Oceanus.txt</name>
+        <exists>-1</exists>
+        <size>21</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Oceanus.txt</filename>
+      </datafile>
+    </datafiles>
   </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
@@ -215,35 +1946,8 @@
         <sprite>sprites\Tiger</sprite>
         <sprite>sprites\Wild_Boar</sprite>
       </sprites>
-      <sprites name="Powerful Monsters">
-        <sprite>sprites\Hydra</sprite>
-        <sprite>sprites\Cerberus</sprite>
-        <sprite>sprites\Charybdis</sprite>
-        <sprite>sprites\Chimera</sprite>
-        <sprite>sprites\Cyclops</sprite>
-        <sprite>sprites\Dragon</sprite>
-        <sprite>sprites\Gorgon</sprite>
-        <sprite>sprites\Griffin</sprite>
-        <sprite>sprites\Jason</sprite>
-        <sprite>sprites\Manticore</sprite>
-        <sprite>sprites\Minotaur</sprite>
-        <sprite>sprites\Nemean_Lion</sprite>
-        <sprite>sprites\Odysseus</sprite>
-        <sprite>sprites\Orpheus</sprite>
-        <sprite>sprites\Orthrus</sprite>
-        <sprite>sprites\Pegasus</sprite>
-        <sprite>sprites\Percy_Jackson</sprite>
-        <sprite>sprites\Python</sprite>
-        <sprite>sprites\Siren</sprite>
-        <sprite>sprites\Sphinx</sprite>
-        <sprite>sprites\Triptolemus</sprite>
-        <sprite>sprites\Triton</sprite>
-        <sprite>sprites\Agamemnon</sprite>
-        <sprite>sprites\Empousa</sprite>
-        <sprite>sprites\Scylla</sprite>
-        <sprite>sprites\Theseus</sprite>
-      </sprites>
       <sprites name="Formidable Monsters">
+        <sprite>sprites\Boss_King_Minos</sprite>
         <sprite>sprites\Centaur</sprite>
         <sprite>sprites\Chrysaor</sprite>
         <sprite>sprites\Daedalus</sprite>
@@ -252,12 +1956,12 @@
         <sprite>sprites\Harpy</sprite>
         <sprite>sprites\Ichthyocentaur</sprite>
         <sprite>sprites\King_Midas</sprite>
-        <sprite>sprites\King_Minos___Boss</sprite>
         <sprite>sprites\Satyr</sprite>
         <sprite>sprites\Stymphalian_Bird</sprite>
       </sprites>
       <sprites name="Immortal Monsters">
         <sprite>sprites\Asclepius</sprite>
+        <sprite>sprites\Boss_Kampe</sprite>
         <sprite>sprites\Briares</sprite>
         <sprite>sprites\Eris</sprite>
         <sprite>sprites\Eros</sprite>
@@ -265,7 +1969,6 @@
         <sprite>sprites\Fury</sprite>
         <sprite>sprites\Hebe</sprite>
         <sprite>sprites\Iris</sprite>
-        <sprite>sprites\Kampe</sprite>
         <sprite>sprites\Keto</sprite>
         <sprite>sprites\Muses</sprite>
         <sprite>sprites\Nemesis</sprite>
@@ -277,12 +1980,45 @@
         <sprite>sprites\Themis</sprite>
         <sprite>sprites\Tyche</sprite>
       </sprites>
+      <sprites name="Powerful Monsters">
+        <sprite>sprites\Achilles</sprite>
+        <sprite>sprites\Agamemnon</sprite>
+        <sprite>sprites\Belleropheron</sprite>
+        <sprite>sprites\Boss_Hercules</sprite>
+        <sprite>sprites\Cerberus</sprite>
+        <sprite>sprites\Charybdis</sprite>
+        <sprite>sprites\Chimera</sprite>
+        <sprite>sprites\Cyclops</sprite>
+        <sprite>sprites\Dragon</sprite>
+        <sprite>sprites\Empousa</sprite>
+        <sprite>sprites\Gorgon</sprite>
+        <sprite>sprites\Griffin</sprite>
+        <sprite>sprites\Hydra</sprite>
+        <sprite>sprites\Jason</sprite>
+        <sprite>sprites\Manticore</sprite>
+        <sprite>sprites\Minotaur</sprite>
+        <sprite>sprites\Nemean_Lion</sprite>
+        <sprite>sprites\Odysseus</sprite>
+        <sprite>sprites\Orpheus</sprite>
+        <sprite>sprites\Orthrus</sprite>
+        <sprite>sprites\Pegasus</sprite>
+        <sprite>sprites\Percy_Jackson</sprite>
+        <sprite>sprites\Perseus</sprite>
+        <sprite>sprites\Python</sprite>
+        <sprite>sprites\Scylla</sprite>
+        <sprite>sprites\Siren</sprite>
+        <sprite>sprites\Sphinx</sprite>
+        <sprite>sprites\Theseus</sprite>
+        <sprite>sprites\Triptolemus</sprite>
+        <sprite>sprites\Triton</sprite>
+      </sprites>
       <sprites name="Superior Monsters">
         <sprite>sprites\Aphrodite</sprite>
         <sprite>sprites\Apollo</sprite>
         <sprite>sprites\Ares</sprite>
         <sprite>sprites\Artemis</sprite>
         <sprite>sprites\Athena</sprite>
+        <sprite>sprites\Boss_Prometheus</sprite>
         <sprite>sprites\Demeter</sprite>
         <sprite>sprites\Dionysus</sprite>
         <sprite>sprites\Hecate</sprite>
@@ -292,12 +2028,12 @@
         <sprite>sprites\Hestia</sprite>
         <sprite>sprites\Leto</sprite>
         <sprite>sprites\Mnemosyne</sprite>
-        <sprite>sprites\Prometheus</sprite>
         <sprite>sprites\Rhea</sprite>
         <sprite>sprites\Tethys</sprite>
       </sprites>
       <sprites name="Supreme Monsters">
         <sprite>sprites\Alcyoneus</sprite>
+        <sprite>sprites\Boss_Zeus</sprite>
         <sprite>sprites\Clytius</sprite>
         <sprite>sprites\Echidna</sprite>
         <sprite>sprites\Enceladus</sprite>
@@ -307,7 +2043,10 @@
         <sprite>sprites\Porphyrion</sprite>
         <sprite>sprites\Poseidon</sprite>
         <sprite>sprites\Typhon</sprite>
-        <sprite>sprites\Zeus</sprite>
+      </sprites>
+      <sprites name="Ultimate Monsters">
+        <sprite>sprites\sprite105</sprite>
+        <sprite>sprites\sprite104</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_background</sprite>
@@ -315,19 +2054,30 @@
     <sprite>sprites\spr_lose</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bck_title</background>
     <background>background\bck_common</background>
+    <background>background\bck_formidable</background>
+    <background>background\bck_immortal</background>
+    <background>background\bck_omnipotent</background>
+    <background>background\bck_powerful</background>
+    <background>background\bck_superior</background>
+    <background>background\bck_supreme</background>
+    <background>background\bck_title</background>
+    <background>background\bck_ultimate</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_draw_text_outline.gml</script>
     <script>scripts\scr_attack.gml</script>
-    <script>scripts\script2.gml</script>
+    <script>scripts\scr_draw_text_outline.gml</script>
+    <script>scripts\scr_getTier.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_greek</font>
   </fonts>
   <objects name="objects">
+    <objects name="cards">
+      <object>objects\obj_monster</object>
+      <object>objects\obj_player</object>
+    </objects>
     <objects name="controllers">
       <object>objects\obj_battle</object>
       <object>objects\obj_lose</object>
@@ -335,8 +2085,6 @@
       <object>objects\obj_overworld</object>
       <object>objects\obj_title</object>
     </objects>
-    <object>objects\obj_monster</object>
-    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>

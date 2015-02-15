@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="3" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (turn &gt;= 5) obj_menu.disabled = -1;
+            <string>for (var i = 0; i &lt; 8; i++) if (i == pTier) background_visible[i] = true;
+
+if (turn &gt;= 5) obj_menu.disabled = -1;
 </string>
           </argument>
         </arguments>
@@ -81,8 +83,11 @@ draw_text(50, 50, "Current turn: " + string(turn));
         room_goto(rm_battle);
         break;
     case 2: //Boss
-        if (turn &gt;= 5) monster = bosses[pTier];
-        room_goto(rm_battle);
+        if (turn &gt;= 5)
+        {
+            monster = bosses[pTier];
+            room_goto(rm_battle);
+        }
         break;
     case 3: //Save
         break;

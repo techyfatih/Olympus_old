@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>var file;
 name = monster;
-file = file_text_open_read(working_directory + "\common\" + name + ".txt");
+file = file_text_open_read(working_directory + "\" + scr_getTier(pTier) + "\" + name + ".txt");
 rarity = file_text_read_real(file);
 file_text_readln(file);
 tier = file_text_read_real(file);

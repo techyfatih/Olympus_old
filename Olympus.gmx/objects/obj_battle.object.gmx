@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>option = -1;
+            <string>for (var i = 0; i &lt; 8; i++) if (i == pTier) background_visible[i] = true;
+
+option = -1;
 faster = false;
 pDamage = 0;
 mDamage = 0;
@@ -184,6 +186,11 @@ if (mHP == 0)
         if (pHP &gt; pStats[1]) pHP = pStats[1];
         pHP++;
         for (var i = 0; i &lt; 5; i++) pStats[i]++;
+    }
+    if (monster == bosses[pTier])
+    {
+        pTier++;
+        turn = 1
     }
     room_goto(rm_overworld);
 }
