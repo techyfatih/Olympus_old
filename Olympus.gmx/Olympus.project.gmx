@@ -65,6 +65,27 @@
         <sprite>sprites\Satyr</sprite>
         <sprite>sprites\Stymphalian_Bird</sprite>
       </sprites>
+      <sprites name="Immortal Monsters">
+        <sprite>sprites\Asclepius</sprite>
+        <sprite>sprites\Briares</sprite>
+        <sprite>sprites\Eris</sprite>
+        <sprite>sprites\Eros</sprite>
+        <sprite>sprites\Fates</sprite>
+        <sprite>sprites\Fury</sprite>
+        <sprite>sprites\Hebe</sprite>
+        <sprite>sprites\Iris</sprite>
+        <sprite>sprites\Kampe</sprite>
+        <sprite>sprites\Keto</sprite>
+        <sprite>sprites\Muses</sprite>
+        <sprite>sprites\Nemesis</sprite>
+        <sprite>sprites\Nike</sprite>
+        <sprite>sprites\Pan</sprite>
+        <sprite>sprites\Persephone</sprite>
+        <sprite>sprites\Polyphemus</sprite>
+        <sprite>sprites\Thanatos</sprite>
+        <sprite>sprites\Themis</sprite>
+        <sprite>sprites\Tyche</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_title</sprite>
   </sprites>
