@@ -53,7 +53,7 @@
   <instances>
     <instance objName="obj_player" x="384" y="384" name="inst_2A962CFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_monster" x="384" y="32" name="inst_63D61411" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menu" x="32" y="32" name="inst_46F1777F" locked="0" code="items[0] = &quot;Attack&quot;;&#xA;items[1] = &quot;Abilities&quot;;&#xA;items[2] = &quot;Items&quot;;&#xA;items[3] = &quot;Allies&quot;;&#xA;items[4] = &quot;Run&quot;;&#xA;width = 110;&#xA;cur = 0;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu" x="32" y="32" name="inst_46F1777F" locked="0" code="items[0] = &quot;Attack&quot;;&#xA;items[1] = &quot;Abilities&quot;;&#xA;items[2] = &quot;Items&quot;;&#xA;items[3] = &quot;Allies&quot;;&#xA;items[4] = &quot;Run&quot;;&#xA;width = 110;&#xA;cur = 0;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

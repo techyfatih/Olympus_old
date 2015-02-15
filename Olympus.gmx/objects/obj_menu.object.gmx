@@ -29,7 +29,7 @@
 items[1] = "Load Game"
 items[2] = "Quit"
 width = 110;
-cur = 0;
+curr = 0;
 </string>
           </argument>
         </arguments>
@@ -52,17 +52,16 @@ cur = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var length;
-length = array_length_1d(items);
-
-draw_set_color(c_black);
+            <string>draw_set_color(c_black);
 draw_set_halign(fa_left);
-draw_roundrect(x, y, x + width, y + length * 10 + 50, true);
+draw_roundrect(x, y, x + width, y + array_length_1d(items) * 20 + 15, true);
 for (var i = 0; i &lt; array_length_1d(items); i++)
 {
     draw_text(x + 12, y + i*20 + 10, items[i]);
 }
-draw_triangle(x + 5, y + 20*cur + 12, x + 5, y + 20*cur + 22, x + 10, y + 20*cur + 17, true);
+draw_triangle(x + 5, y + 20*curr + 12, x + 5, y + 20*curr + 22, x + 10, y + 20*curr + 17, true);
+
+draw_text(400, 400, curr);
 </string>
           </argument>
         </arguments>
@@ -85,7 +84,7 @@ draw_triangle(x + 5, y + 20*cur + 12, x + 5, y + 20*cur + 22, x + 10, y + 20*cur
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (cur &lt; array_length_1d(items)-1) cur++;
+            <string>if (curr &lt; array_length_1d(items)-1) curr++;
 </string>
           </argument>
         </arguments>
@@ -108,7 +107,7 @@ draw_triangle(x + 5, y + 20*cur + 12, x + 5, y + 20*cur + 22, x + 10, y + 20*cur
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (cur &gt; 0) cur--;
+            <string>if (curr &gt; 0) curr--;
 </string>
           </argument>
         </arguments>

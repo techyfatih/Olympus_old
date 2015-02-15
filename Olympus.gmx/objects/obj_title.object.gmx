@@ -50,9 +50,18 @@ draw_text(480, 200, "Olympus");
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar pHand;
-pHand = ds_list_create();
-room_goto_next();
+            <string>switch (obj_menu.curr)
+{
+    case 0: //New Game
+        globalvar pHand;
+        pHand = ds_list_create();
+        room_goto_next();
+        break;
+    case 1: //Load Game
+    case 2: //Quit
+        game_end();
+        break;
+}
 </string>
           </argument>
         </arguments>

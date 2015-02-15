@@ -74,6 +74,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_draw_text_outline.gml</script>
+    <script>scripts\scr_attack.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\Diogenes</font>
