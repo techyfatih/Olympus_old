@@ -85,7 +85,7 @@ draw_triangle(x + 5, y + 20*curr + 12, x + 5, y + 20*curr + 22, x + 10, y + 20*c
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if !instance_exists(obj_lose) and (curr &lt; array_length_1d(items)-1) curr++;
+            <string>if !instance_exists(obj_lose) and !instance_exists(obj_battleItems) and (curr &lt; array_length_1d(items)-1) curr++;
 </string>
           </argument>
         </arguments>
@@ -108,7 +108,7 @@ draw_triangle(x + 5, y + 20*curr + 12, x + 5, y + 20*curr + 22, x + 10, y + 20*c
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if !instance_exists(obj_lose) and (curr &gt; 0) curr--;
+            <string>if !instance_exists(obj_lose) and !instance_exists(obj_battleItems) and (curr &gt; 0) curr--;
 </string>
           </argument>
         </arguments>

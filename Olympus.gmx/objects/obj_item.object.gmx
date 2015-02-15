@@ -25,9 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ATK = pStats[2];
-DEF = pStats[3];
-SPE = pStats[4];
+            <string>//Set these values accordingly
+rarity = 0;
+tier = 0;
+name = "Potion";
+stat = "HP Boost: ";
+boost = 10;
 </string>
           </argument>
         </arguments>
@@ -50,17 +53,12 @@ SPE = pStats[4];
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(spr_tier, pTier, x, y + 20);
-draw_sprite(spr_border, 0, x, y);
+            <string>draw_sprite(spr_tier, tier, x, y + 20);
+draw_sprite(spr_border, rarity, x, y);
 draw_set_halign(fa_center);
-scr_draw_text_outline(pName, x + 100, y + 30);
-draw_sprite(spr_player, 0, x + 50, y + 50);
+scr_draw_text_outline(name, x + 100, y + 30);
 draw_set_halign(fa_left);
-scr_draw_text_outline("Level: " + string(pStats[0]), x + 30, y + 160);
-scr_draw_text_outline("HP: " + string(pHP) + "/" + string(pStats[1]), x + 30, y + 180);
-scr_draw_text_outline("ATK: " + string(pStats[2]) + " (" + string(ATK) + ")", x + 30, y + 200);
-scr_draw_text_outline("DEF: " + string(pStats[3]) + " (" + string(DEF) + ")", x + 30, y + 220);
-scr_draw_text_outline("SPE: " + string(pStats[4]) + " (" + string(SPE) + ")", x + 30, y + 240);
+scr_draw_text_outline(stat + string(boost), x + 30, y + 220);
 </string>
           </argument>
         </arguments>

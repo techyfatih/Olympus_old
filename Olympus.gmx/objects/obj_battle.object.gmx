@@ -31,6 +31,9 @@ option = -1;
 faster = false;
 pDamage = 0;
 mDamage = 0;
+boost = false;
+pStat = "HP";
+pBoost = 0;
 </string>
           </argument>
         </arguments>
@@ -67,13 +70,18 @@ switch (option)
         }
         else
         {
-            draw_text(610, 215, obj_monster.name + " dealt " + string(mDamage) + " damage!");
+            draw_text(610, 210, obj_monster.name + " dealt " + string(mDamage) + " damage!");
             draw_text(610, 230, "You dealt " + string(pDamage) + " damage!");
         }
         break;
     case 1: //Abilities
         break;
     case 2: //Items
+        if boost
+        {
+            draw_text(610, 210, "You gained a " + string(pBoost) + " boost in " + string(pStat) + ".");
+            draw_text(610, 230, obj_monster.name + " dealt " + string(mDamage) + " damage!");
+        }
         break;
     case 3: //Allies
         break;
@@ -150,6 +158,22 @@ switch (option)
     case 1: //Abilities
         break;
     case 2: //Items
+        /*boost = false;
+        if !instance_exists(obj_battleItems) instance_create(0, 0, obj_battleItems);
+        else
+        {
+            boost = true;
+            pStat = obj_item.stat;
+            pBoost = obj_item.boost;
+            if (pStat == "HP") pHP += pBoost;
+            else if (pStat == "ATK") pATK += pBoost;
+            else if (pStat == "DEF") pDEF += pBoost;
+            else if (pStat == "SPE") pSPE += pBoost;
+            
+            var piHP = pHP;
+            pHP = scr_attack(mATK, pDEF, pTier, pHP);
+            mDamage = piHP - pHP;
+        }*/
         break;
     case 3: //Allies
         break;

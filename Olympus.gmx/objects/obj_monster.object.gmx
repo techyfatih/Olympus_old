@@ -40,7 +40,7 @@ DEF = file_text_read_real(file);
 file_text_readln(file);
 SPE = file_text_read_real(file);
 file_text_close(file);
-if (string_copy(name,0,5) == "Boss_") name = string_copy(name,5,string_length(name)-5);
+if (string_copy(name,0,5) == "Boss_") name = string_copy(name,5,string_length(name)-4);
 name = string_replace(name, "_", " ");
 
 currHP = HP;
