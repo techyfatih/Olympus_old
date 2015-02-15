@@ -29,8 +29,11 @@
         <sprite>sprites\sprite15</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_title</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bck_title</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_draw_text_outline.gml</script>
@@ -39,10 +42,16 @@
     <font>fonts\Diogenes</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_player</object>
+    <objects name="controllers">
+      <object>objects\obj_battle</object>
+      <object>objects\obj_menu</object>
+      <object>objects\obj_title</object>
+    </objects>
     <object>objects\obj_monster</object>
+    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_title</room>
     <room>rooms\rm_battle</room>
   </rooms>
   <constants number="2">
